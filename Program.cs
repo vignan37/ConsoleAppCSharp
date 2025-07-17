@@ -19,6 +19,15 @@ namespace TestApplication
             string name = "Vignan";
             Console.WriteLine($"my name is {name}");
 
+            //we can use .net var aswell that will automatically detect the type of variable
+            var numberTwo = 23;
+            var priceTwo = 23.08f;
+            var c = 'c';
+            Console.WriteLine($"The second number is: {numberTwo}");
+            Console.WriteLine($"The second price is: {priceTwo}");
+         
+            Console.WriteLine("{0}{1}",2,44);
+            
             //cw shortcut for Console.WriteLine by vs
             Console.WriteLine();
         }
